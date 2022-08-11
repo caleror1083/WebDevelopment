@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Practice", ".", "{4DEBB017-D465-4B09-8D3E-5B7DADDAE07B}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_001_Print", ".", "{4DEBB017-D465-4B09-8D3E-5B7DADDAE07B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51319"
@@ -24,7 +24,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Practice", ".", "{4DEBB017-
 		SlnRelativePath = "..\Practice\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_DOM(1)", "_002_DOM\", "{8130E843-A0AA-475A-885B-20FE634F78CD}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_DOM", "_002_DOM\", "{8130E843-A0AA-475A-885B-20FE634F78CD}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_54216"
