@@ -24,6 +24,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_001_Print(1)", "_001_Print
 		SlnRelativePath = "_001_Print\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_Drink List", "_002_Drink List\", "{A5BE284F-53A4-4A15-90ED-444B00EA3228}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62762"
+		Debug.AspNetCompiler.PhysicalPath = "_002_Drink List\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62762\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62762"
+		Release.AspNetCompiler.PhysicalPath = "_002_Drink List\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62762\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62762"
+		SlnRelativePath = "_002_Drink List\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +52,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0369272D-B3F6-4BF3-B3CC-A0694E24477B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0369272D-B3F6-4BF3-B3CC-A0694E24477B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BE284F-53A4-4A15-90ED-444B00EA3228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BE284F-53A4-4A15-90ED-444B00EA3228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
