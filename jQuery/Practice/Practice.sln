@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_001_Print", "..\..\..\..\..\Downloads\Web Design\Practice\jQuery\_001_Print\", "{C12A0BD1-BCDB-496E-896D-BFA795D6386F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_001_Print(1)", "_001_Print\", "{0369272D-B3F6-4BF3-B3CC-A0694E24477B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_56740"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Downloads\Web Design\Practice\jQuery\_001_Print\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56740\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56974"
+		Debug.AspNetCompiler.PhysicalPath = "_001_Print\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56974\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_56740"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Downloads\Web Design\Practice\jQuery\_001_Print\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56740\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56974"
+		Release.AspNetCompiler.PhysicalPath = "_001_Print\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56974\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "56740"
-		SlnRelativePath = "..\..\..\..\..\Downloads\Web Design\Practice\jQuery\_001_Print\"
+		VWDPort = "56974"
+		SlnRelativePath = "_001_Print\"
 	EndProjectSection
 EndProject
 Global
@@ -29,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C12A0BD1-BCDB-496E-896D-BFA795D6386F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C12A0BD1-BCDB-496E-896D-BFA795D6386F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0369272D-B3F6-4BF3-B3CC-A0694E24477B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0369272D-B3F6-4BF3-B3CC-A0694E24477B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
