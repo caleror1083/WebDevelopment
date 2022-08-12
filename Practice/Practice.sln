@@ -234,6 +234,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_011_Snow", "_011_Snow\", "
 		SlnRelativePath = "_011_Snow\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_012_ Video Player", "_012_ Video Player\", "{A4BDC03C-AB74-4C73-98C1-ACE68FB67B8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51391"
+		Debug.AspNetCompiler.PhysicalPath = "_012_ Video Player\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51391\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51391"
+		Release.AspNetCompiler.PhysicalPath = "_012_ Video Player\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51391\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51391"
+		SlnRelativePath = "_012_ Video Player\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +282,8 @@ Global
 		{3E3ACD14-9259-4336-A6A5-FD47929C3B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{364B5E63-1D56-4B73-B5FC-7884E11C48FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{364B5E63-1D56-4B73-B5FC-7884E11C48FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BDC03C-AB74-4C73-98C1-ACE68FB67B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BDC03C-AB74-4C73-98C1-ACE68FB67B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
