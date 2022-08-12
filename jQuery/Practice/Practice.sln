@@ -66,6 +66,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_003_Button", "_003_Button\
 		SlnRelativePath = "_003_Button\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_004_Trivia", "_004_Trivia\", "{E47E2BB8-D6A9-4B5A-A079-B4DD0A8FAB85}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51365"
+		Debug.AspNetCompiler.PhysicalPath = "_004_Trivia\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51365\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51365"
+		Release.AspNetCompiler.PhysicalPath = "_004_Trivia\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51365\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51365"
+		SlnRelativePath = "_004_Trivia\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +98,8 @@ Global
 		{A5BE284F-53A4-4A15-90ED-444B00EA3228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37A1CA9-5F22-421A-8019-6383C8B1E201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D37A1CA9-5F22-421A-8019-6383C8B1E201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47E2BB8-D6A9-4B5A-A079-B4DD0A8FAB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47E2BB8-D6A9-4B5A-A079-B4DD0A8FAB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
