@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Learning JavaScript</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="header">
+			<h1 id="heading">Learning JavaScript</h1>
+			<p>With Rob Calero</p>
+		</div>
+		
+		<div class="container">
+			<form method="post" action="something.php" name="myForm">
+				<div>
+					<label>First Name</label>
+					<input type="text" name="firstName" id="firstName">
+				</div>
+				<br>
+				<div>
+					<label>Last Name</label>
+					<input type="text" name="lastName" id="lastName">
+				</div>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		
+		<!--
+		<script>
+		<form onsubmit="return validateForm()">
+		<input type="text" name="firstName" id="firstName" />
+			function validateForm()
+				{
+					var firstName = document.forms["myForm"]["firstName"].value;
+
+					if(firstName == null || firstName == "")
+						{
+							alert("First name is required");
+							return false;
+						}
+					if(firstName.length < 3)
+						{
+							alert("First name must be at least 3 chars");
+							return false;
+						}
+				}
+		</script>
+		`-->
+
+		<!--
+		<script>
+		<body id="body">
+		<h1 id="heading">
+		<select onchange="changeBackground(this)">
+			function changeBackground(x)
+				{
+					console.log(x.value);
+					var body = document.getElementById('body');
+					body.style.backgroundColor = x.value;
+					var heading = document.getElementById('heading');
+					heading.style.color = x.value;
+				}
+		</script>
+		-->
+
+		<!--
+		<script>
+		<h1 id="time">
+		<body onload="showDate()">
+		<button onclick="showDate()">
+		<button onmouseover="showDate()">
+				function showDate()
+					{
+						var time = document.getElementById('time');
+						time.innerHTML = Date();
+					}
+		</script>
+		-->
+
+		<!--
+		<script>
+		<h1 id="time">
+		<button onmmouseout="clearDate()">
+				function clearDate()
+					{
+						var time = document.getElementById('time');
+						time.innerHTML = '';
+					}
+		</script>
+		-->
+
+		<!--
+		<script>
+		<h1 id="heading">
+		<button onclick="changeText()">
+			function changeText()
+				{
+					var heading = document.getElementById('heading');
+					heading.innerHTML = 'You Clicked!';
+				}
+		</script>
+		-->
+
+		<!--
+		<script>
+		<button onclick="changeText(this)">
+			function changeText(id)
+				{
+					id.innerHTML = 'You Clicked!';
+				}
+		</script>
+		-->
+
+		<!--
+		<script>
+		<button onclick="doClick()">
+			function doClick()
+				{
+					alert('You Clicked!');
+				}
+		</script>
+		-->
+
+		<!--
+		<script>
+			// Object Literal
+			var person = 
+				{
+					firstName: 'Rob',
+					lastName: 'Calero',
+					age: '34',
+					children: ['None'],
+					address:
+						{
+							street: '123 Main St',
+							city: 'Paterson',
+							state: 'NJ'
+						},
+					fullName: function()
+						{
+							return this.firstName + " " + this.lastName;
+						}
+				}
+			console.log(person.fullName());
+
+			// Object Constructor
+			var apple = new Object();
+			apple.color = 'red';
+			apple.shape = 'round';
+			apple.describe = function()
+				{
+					return 'An apple is the color ' + this.color + ' and is the shape ' + this.shape;
+				}
+			console.log (apple.describe());
+
+			// Constructor Pattern
+			function Fruit(name, color, shape)
+				{
+					this.name = name;
+					this.color = color;
+					this.shape = shape;
+
+					this.describe = function()
+						{
+							return 'A ' + this.name + ' is the color ' + this.color + ' and is the shape ' + this.shape;
+						}
+				}
+			var apple = new Fruit('apple', 'red', 'round');
+			var melon = new Fruit('melon', 'green', 'round');
+			console.log(apple);
+			console.log(melon.shape);
+			console.log(melon.describe());
+
+			// Arrays of Objects
+			var users = 
+				[
+					{
+						name: 'John Doe',
+						age: 30
+					},
+					{
+						name: 'Mark Smith',
+						age: 29
+					},
+					{
+						name: 'Jane Doe',
+						age: 32
+					}
+				];
+			console.log(users[0].name);
+		</script> -->
+		<!-- <script type="text/javascript" src="js/main.js"></script> -->
+	</body>
+</html>

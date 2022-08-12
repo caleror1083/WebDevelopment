@@ -1,0 +1,329 @@
+/* resets all elements
+*
+	{
+		margin: 0;
+		padding: 0;
+	} */
+	
+body
+	{
+		background-color: #F4F4F4;
+		color :#555555;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: normal;
+		/* Same as above
+			font: normal 16px Arial, Helvetica, sans-serif; */
+		line-height: 1.6em;
+		margin: 0;
+	}
+
+a
+	{
+		text-decoration: none;
+		color: #000000;
+	}
+
+a:hover
+	{
+		color: #FF0000;
+	}
+
+a:active
+	{
+		color: #00FF00;
+	}
+
+.container
+	{
+		width: 80%;
+		margin: auto;
+	}
+
+.button
+	{
+		background-color: #333333;
+		color: #FFFFFF;
+		border-top: none;
+		border-bottom: none;
+		bordder-left: none;
+		border-right: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+.button:hover
+	{
+		background: #FF0000;
+		color: #FFFFFF;
+	}
+
+.clr
+	{
+		clear: both;
+	}
+
+.box-1
+	{
+		background-color: #333333;
+		color: #FFFFFF;
+		border-top: 5px;
+		border-top-color: #FF0000;
+		border-top-style: soid;
+		border-top-width: 3px;
+		border-bottom: 5px;
+		border-bottom-color: #FF0000;
+		border-bottom-style: solid;
+		border-bottom-width: 5px;
+		border-left-color: #FF0000;
+		border-left-style: solid;
+		border-left-width: 3px;
+		border-right: 5px;
+		border-right-color: #FF0000;
+		border-right-style: solid;
+		border-right-width: 3px;
+		border-left: 5px;
+		/* Same as above
+			border: 5px red solid; */
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		
+		/* Same as above
+			padding: 20px; */
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+.box-1 h1
+	{
+		font-family: Tahoma;
+		font-weight: 800;
+		font-style: italic;
+		text-decoration: underline;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		word-spacing: 1em;
+	}
+
+.box-2
+	{
+		border-top: 3px;
+		border-top-color: #CCCCCC;
+		border-top-style: dotted;
+		border-bottom: 3px;
+		border-bottom-color: #CCCCCC;
+		border-bottom-style: dotted;
+		border-left: 3px;
+		border-left-color: #CCCCCC;
+		border-left-style: dotted;
+		border-right: 3px;
+		border-right-color: #CCCCCC;
+		border-right-style: dotted;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+.categories
+	{
+		border-top: 1px;
+		border-top-color: #CCCCCC;
+		border-top-style: solid;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom: 1px;
+		border-bottom-color: #CCCCCC;
+		border-bottom-style: solid;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		border-left: 1px;
+		border-left-color: #CCCCCC;
+		border-left-style: solid;
+		border-right: 1px;
+		border-right-color: #CCCCCC;
+		border-right-style: solid;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+.categories h2
+	{
+		text-align: center;
+	}
+	
+.categories ul
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 20px;
+		padding-right: 0;
+		list-style: none;
+	}
+	
+.categories li
+	{
+		border-bottom: 1px;
+		border-bottom-color: #333333;
+		border-bottom-style: dotted;
+		padding-bottom: 6px;
+		list-style-image: url('../images/check.png');
+	}
+	
+.my-form
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+.my-form .form-group
+	{
+		padding-bottom: 15px;
+	}
+
+.my-form label
+	{
+		display: block;
+	}
+	
+.my-form input[type="text"]
+	{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 8px;
+		padding-right: 8px;
+		width: 100%;
+	}
+
+.my-form textarea
+	{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 8px;
+		padding-right: 8px;
+		width: 100%;
+	}
+
+.block
+	{
+		float: left;
+		border-top: 1px;
+		border-top-color: #CCCCCC;
+		border-top-style: solid;
+		border-bottom: 1px;
+		border-bottom-color: #CCCCCC;
+		border-bottom-style: solid;
+		border-left: 1px;
+		border-left-color: #CCCCCC;
+		border-left-style: solid;
+		border-right: 1px;
+		border-right-color: #CCCCCC;
+		border-right-style: solid;
+		box-sizing: border-box;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 33.3%;
+	}
+
+#main-block
+	{
+		box-sizing: border-box;
+		float: left;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 70%;
+	}
+
+#sidebar
+	{
+		background-color: #333333;
+		box-sizing: border-box;
+		color: #ffffff;
+		float: right;
+		width: 30%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+.p-box
+	{
+		background-image: url('../images/bgimage.jpg');
+		background-position: center top;
+		background-repeat: no-repeat;
+		border-top: 1px;
+		border-top-color: #000000;
+		border-top-style: solid;
+		border-bottom: 1px;
+		border-bottom-color: #000000;
+		border-bottom-style: solid;
+		border-left: 1px;
+		border-left-color: #000000;
+		border-left-style: solid;
+		border-right: 1px;
+		border-right-color: #000000;
+		border-right-style: solid;
+		height: 500px;
+		margin-top: 30px;
+		position: relative;
+		width: 800px;
+	}
+
+.p-box h1
+	{
+		left: 200px;
+		position: absolute;
+		top: 100px;
+	}
+
+.p-box h2
+	{
+		bottom: 40px;
+		position: absolute;
+		right: 100px;
+	}
+	
+.fix-me
+	{
+		position: fixed;
+		top: 400px;
+	}
+
+.my-list li:first-child
+	{
+		background: #FF0000;
+	}
+
+.my-list li:nth-child(5)
+	{
+		background: #FFFF00;
+	}
+
+.my-list li:last-child
+	{
+		background: #0000FF;
+	}
+
+.my-list li:nth-child(even)
+	{
+		background: #333333;
+	}
