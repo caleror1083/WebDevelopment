@@ -45,6 +45,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_Drink List", "_002_Dri
 		SlnRelativePath = "_002_Drink List\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_003_Button", "_003_Button\", "{D37A1CA9-5F22-421A-8019-6383C8B1E201}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63146"
+		Debug.AspNetCompiler.PhysicalPath = "_003_Button\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63146\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63146"
+		Release.AspNetCompiler.PhysicalPath = "_003_Button\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63146\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63146"
+		SlnRelativePath = "_003_Button\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +75,8 @@ Global
 		{0369272D-B3F6-4BF3-B3CC-A0694E24477B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5BE284F-53A4-4A15-90ED-444B00EA3228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A5BE284F-53A4-4A15-90ED-444B00EA3228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37A1CA9-5F22-421A-8019-6383C8B1E201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37A1CA9-5F22-421A-8019-6383C8B1E201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
