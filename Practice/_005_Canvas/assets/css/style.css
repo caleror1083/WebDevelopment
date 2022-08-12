@@ -1,0 +1,12 @@
+body
+    {
+        background: #999999;
+    }
+
+#myCanvas
+    {
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        margin: 10px;
+        padding: 10px;
+    }
