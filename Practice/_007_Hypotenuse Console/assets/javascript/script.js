@@ -1,9 +1,4 @@
-// Robert Calero
-// Finding the hypotenuse of a right triangle
-
-let a;
-let b;
-let c;
+let a, b, c;
 
 a = window.prompt("Enter side A");
 a = Number(a);
