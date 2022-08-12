@@ -1,0 +1,11 @@
+/*
+    Robert Calero 
+    Displaying a counter
+*/
+
+#lblCounter
+    {
+        display: block;
+        text-align: center;
+        font-size: 50px;
+    }
