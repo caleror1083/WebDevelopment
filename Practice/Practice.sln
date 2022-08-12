@@ -108,27 +108,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_005_Canvas", "_005_Canvas\
 		SlnRelativePath = "_005_Canvas\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_006_Snake Game", "_006_Snake Game\", "{AFFD2193-F607-459B-9166-D3E68E64C772}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_64292"
-		Debug.AspNetCompiler.PhysicalPath = "_006_Snake Game\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64292\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_64292"
-		Release.AspNetCompiler.PhysicalPath = "_006_Snake Game\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64292\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "64292"
-		SlnRelativePath = "_006_Snake Game\"
-	EndProjectSection
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_007_Hypotenuse Console", "_007_Hypotenuse Console\", "{5E6332AE-60EF-4990-9B67-C596B92D5543}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
@@ -165,8 +144,6 @@ Global
 		{69287609-6A7C-4693-9A2E-A0EF32117375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B573FC2B-4E37-4314-8AAF-C8E410257BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B573FC2B-4E37-4314-8AAF-C8E410257BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AFFD2193-F607-459B-9166-D3E68E64C772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AFFD2193-F607-459B-9166-D3E68E64C772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6332AE-60EF-4990-9B67-C596B92D5543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E6332AE-60EF-4990-9B67-C596B92D5543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
