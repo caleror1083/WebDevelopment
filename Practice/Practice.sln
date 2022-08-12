@@ -213,6 +213,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_010_Site Bookmarker", "_01
 		SlnRelativePath = "_010_Site Bookmarker\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_011_Snow", "_011_Snow\", "{364B5E63-1D56-4B73-B5FC-7884E11C48FD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51326"
+		Debug.AspNetCompiler.PhysicalPath = "_011_Snow\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51326\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51326"
+		Release.AspNetCompiler.PhysicalPath = "_011_Snow\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51326\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51326"
+		SlnRelativePath = "_011_Snow\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -238,6 +259,8 @@ Global
 		{7D3021CB-180B-4B11-902E-EC07E0E33E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E3ACD14-9259-4336-A6A5-FD47929C3B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3E3ACD14-9259-4336-A6A5-FD47929C3B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364B5E63-1D56-4B73-B5FC-7884E11C48FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364B5E63-1D56-4B73-B5FC-7884E11C48FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
