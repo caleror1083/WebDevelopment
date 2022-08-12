@@ -150,6 +150,69 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_006_Hypotenuse_Webpage", "
 		SlnRelativePath = "_006_Hypotenuse_Webpage\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_008_Station Passenger Counter", "_008_Station Passenger Counter\", "{062333CA-36FC-4450-9514-262DAFEF8AD6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50928"
+		Debug.AspNetCompiler.PhysicalPath = "_008_Station Passenger Counter\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50928\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50928"
+		Release.AspNetCompiler.PhysicalPath = "_008_Station Passenger Counter\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50928\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50928"
+		SlnRelativePath = "_008_Station Passenger Counter\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_009_Sample Page", "_009_Sample Page\", "{7D3021CB-180B-4B11-902E-EC07E0E33E90}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51075"
+		Debug.AspNetCompiler.PhysicalPath = "_009_Sample Page\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51075\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51075"
+		Release.AspNetCompiler.PhysicalPath = "_009_Sample Page\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51075\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51075"
+		SlnRelativePath = "_009_Sample Page\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_010_Site Bookmarker", "_010_Site Bookmarker\", "{3E3ACD14-9259-4336-A6A5-FD47929C3B3A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51296"
+		Debug.AspNetCompiler.PhysicalPath = "_010_Site Bookmarker\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51296\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51296"
+		Release.AspNetCompiler.PhysicalPath = "_010_Site Bookmarker\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51296\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51296"
+		SlnRelativePath = "_010_Site Bookmarker\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +232,12 @@ Global
 		{5E6332AE-60EF-4990-9B67-C596B92D5543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD0A9B6-9182-466E-AA0C-A78121FE56D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9FD0A9B6-9182-466E-AA0C-A78121FE56D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062333CA-36FC-4450-9514-262DAFEF8AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062333CA-36FC-4450-9514-262DAFEF8AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3021CB-180B-4B11-902E-EC07E0E33E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3021CB-180B-4B11-902E-EC07E0E33E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3ACD14-9259-4336-A6A5-FD47929C3B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3ACD14-9259-4336-A6A5-FD47929C3B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
