@@ -129,6 +129,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_007_Hypotenuse Console", "
 		SlnRelativePath = "_007_Hypotenuse Console\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_006_Hypotenuse_Webpage", "_006_Hypotenuse_Webpage\", "{9FD0A9B6-9182-466E-AA0C-A78121FE56D7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50681"
+		Debug.AspNetCompiler.PhysicalPath = "_006_Hypotenuse_Webpage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50681\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50681"
+		Release.AspNetCompiler.PhysicalPath = "_006_Hypotenuse_Webpage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50681\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50681"
+		SlnRelativePath = "_006_Hypotenuse_Webpage\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +167,8 @@ Global
 		{B573FC2B-4E37-4314-8AAF-C8E410257BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E6332AE-60EF-4990-9B67-C596B92D5543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E6332AE-60EF-4990-9B67-C596B92D5543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD0A9B6-9182-466E-AA0C-A78121FE56D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD0A9B6-9182-466E-AA0C-A78121FE56D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
