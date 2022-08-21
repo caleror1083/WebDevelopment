@@ -16,9 +16,8 @@ $(document).ready(function()
 	    var drinkDiv = $("#drink-options");  // selects the drink-options div element
 
 	    // iterates through the total drink list
-		for (var i = 0; i < drinkList.length; i++)
-			{
-				var newDiv = $("<div>" + drinkList[i] + "</div>");  // create a new div for each drink
-				drinkDiv.append(newDiv);  // add the ne div to the drinklist div
-			}
+        $.each(drinkList, function (i, drink)
+            {
+			    drinkDiv.append("<div>" + drink + "</div>");
+		    });
     });

@@ -549,6 +549,48 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_026_External API", "_026_E
 		SlnRelativePath = "_026_External API\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_Drink List", "_002_Drink List\", "{68BB3674-AC6A-4BC3-8847-865C2B61B143}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54834"
+		Debug.AspNetCompiler.PhysicalPath = "_002_Drink List\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54834\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54834"
+		Release.AspNetCompiler.PhysicalPath = "_002_Drink List\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54834\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54834"
+		SlnRelativePath = "_002_Drink List\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_Drink List ForEach", "_002_Drink List ForEach\", "{F2D9A8B9-C775-4CC5-B24B-11835EAB16CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62163"
+		Debug.AspNetCompiler.PhysicalPath = "_002_Drink List ForEach\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62163\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62163"
+		Release.AspNetCompiler.PhysicalPath = "_002_Drink List ForEach\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62163\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62163"
+		SlnRelativePath = "_002_Drink List ForEach\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -606,6 +648,10 @@ Global
 		{2FAF9B8D-2824-4378-920E-114B197C6E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0B23C33-A893-4202-93B2-B5712401508E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0B23C33-A893-4202-93B2-B5712401508E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68BB3674-AC6A-4BC3-8847-865C2B61B143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68BB3674-AC6A-4BC3-8847-865C2B61B143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D9A8B9-C775-4CC5-B24B-11835EAB16CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D9A8B9-C775-4CC5-B24B-11835EAB16CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
