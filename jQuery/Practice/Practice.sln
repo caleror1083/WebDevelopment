@@ -108,6 +108,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_002_Drink List Each", "_00
 		SlnRelativePath = "_002_Drink List Each\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "_005_Sandwich Click", "_005_Sandwich Click\", "{38E454C2-0BCD-4C91-B5AF-EB1AB758F20E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62242"
+		Debug.AspNetCompiler.PhysicalPath = "_005_Sandwich Click\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62242\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62242"
+		Release.AspNetCompiler.PhysicalPath = "_005_Sandwich Click\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62242\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62242"
+		SlnRelativePath = "_005_Sandwich Click\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +144,8 @@ Global
 		{E47E2BB8-D6A9-4B5A-A079-B4DD0A8FAB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD23EF66-DEB1-42CA-8A75-356AAB3A0F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CD23EF66-DEB1-42CA-8A75-356AAB3A0F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E454C2-0BCD-4C91-B5AF-EB1AB758F20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E454C2-0BCD-4C91-B5AF-EB1AB758F20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
