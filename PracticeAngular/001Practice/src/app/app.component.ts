@@ -3,12 +3,11 @@ import { Component } from '@angular/core';
 
 // decorator functions (metadata and templates)
 @Component({
-    selector: 'app-root',
-    template: '<div><h1>{{pageTitle}}</h1><div>My First Component</div></div>'
+  selector: 'app-root',
+  template: `<h1>Hello {{name}}</h1>`
 })
 
 // classes
-export class AppComponent {
-    // properties
-    pageTitle: string = 'Acme Product Management';
+export class AppComponent { 
+  name: string = 'Angular 2!';  // string property called name with a value
 }
