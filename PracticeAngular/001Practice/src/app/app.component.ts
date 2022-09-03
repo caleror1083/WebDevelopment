@@ -9,5 +9,5 @@ import { Component } from "@angular/core";
 // the root component
 // export keyword allows this class to be imported and used by other components
 export class AppComponent {
-    name : string = "Angular";  // string property called name with a value
+    pageHeader : string = "Employee Details";  // string property called name with a value
 }
