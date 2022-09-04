@@ -16,4 +16,24 @@
 <!-- using interpolation to invoke a method -->
 <div><h1>{{FullName()}}</h1></div>
 
+<!-- using CSS class style binding in Angular-->
+
+<!-- using CSS inline style binding in Angular -->
+<button>Click</button>
+<button style="color:#FF0000">Click</button>
+<button [style.font-weight]="boldStyle ? 'bold' : 'normal'">Click</button>
+<button [style.font-size.px]="fontSize">Click</button>
+<button [ngStyle]="AddStyles()">Click</button>
+<br /><br />
+
+<!-- using event binding in Angular-->
+<button (click)="OnClick()">Click</button>
+<br /><br />
+
+<!-- 2-way data binding in Angular -->
+Name: <input [(ngModel)]="name" />
+<br />
+You entered: {{name}}
+
+<br /><br />
 <employee-view></employee-view>   <!-- add the 2nd component selector as a directive within the root component -->
