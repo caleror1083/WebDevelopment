@@ -1,0 +1,16 @@
+div {
+    background-color: #FFFFFF;
+}
+
+table {
+     color: #336699;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: large;
+     border-collapse: collapse;
+}
+
+td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}

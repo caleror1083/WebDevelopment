@@ -1,4 +1,19 @@
-<div>
-    <h1>{{ pageHeader }}</h1>
-    <employee></employee>
-</div>
+<div><h1>{{pageHeader}}</h1></div>            <!-- data binding expression within the HTML element -->
+<div><h1>{{"Page Header = " + pageHeader}}</h1></div> <!-- with interpolation you can also concatenate a hard coded string with property value -->
+<div><h1>{{10 + 20 + 30}}</h1></div>
+
+<!-- if pageHeader has a value -->
+<!-- ?then display the pageHeader value -->
+<!-- :else display hard coded string No header -->
+<div><h1>{{pageHeader ? pageHeader : "No header"}}</h1></div>
+
+<!-- using interpolation to display an image -->
+<div><img src="{{imagePath}}" /></div>
+
+<!-- using property binding to display an image -->
+<div><img [src]="imagePath" /></div>
+
+<!-- using interpolation to invoke a method -->
+<div><h1>{{FullName()}}</h1></div>
+
+<employee-view></employee-view>   <!-- add the 2nd component selector as a directive within the root component -->
