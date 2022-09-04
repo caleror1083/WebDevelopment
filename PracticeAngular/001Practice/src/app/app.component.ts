@@ -35,6 +35,4 @@ export class AppComponent {                     // class has code required for t
         alert("Button was clicked");
         //console.log("Button was clicked");
     }
-
-
 }

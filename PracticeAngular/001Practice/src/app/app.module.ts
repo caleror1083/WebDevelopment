@@ -4,10 +4,11 @@ import {FormsModule} from "@angular/forms";
 
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { EmployeeListComponent } from "./employee/employeeList.component";
 
 @NgModule({
     imports: [BrowserModule, FormsModule],
-    declarations: [AppComponent, EmployeeComponent], // registering these components with this module
+    declarations: [AppComponent, EmployeeComponent, EmployeeListComponent], // registering these components with this module
     bootstrap: [AppComponent]
 })
 
