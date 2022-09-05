@@ -9,15 +9,13 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let employee of employees">
-            <td>{{employee.code}}</td>
+        <!-- index, first, last, even and odd properties assigned to local variables-->
+        <tr *ngFor="let employee of employees;">
+            <td>{{employee.code | uppercase}}</td>         <!-- uppercase pipe transforms string value to uppercase -->
             <td>{{employee.name}}</td>
             <td>{{employee.gender}}</td>
-            <td>{{employee.annualSalary}}</td>
-            <td>{{employee.dateOfBirth}}</td>
-        </tr>
-        <tr *ngIf="!employees || employees.length==0">
-            <td colspan="5">No employees to display</td>
+            <td>{{employee.annualSalary | currency}}</td>  <!-- currency pipe transforms amount value to currency with 2 decimals -->
+            <td>{{employee.dateOfBirth | date: "M/d/y"}}</td>  <!-- date pipe transforms date value to Month DD, YYYY -->
         </tr>
     </tbody>
 </table>

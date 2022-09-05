@@ -6,10 +6,19 @@ import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeListComponent } from "./employee/employeeList.component";
 
+// defines a module that contains conponents, directives, pipes and providers
 @NgModule({
-    imports: [BrowserModule, FormsModule],
-    declarations: [AppComponent, EmployeeComponent, EmployeeListComponent], // registering these components with this module
-    bootstrap: [AppComponent]
+    declarations: [  // list of components, directives and pipes that belong to this module
+        AppComponent,
+        EmployeeComponent,
+        EmployeeListComponent
+    ],
+    imports: [  // list of modules to import into this module. Everything from the imported module is available to declarations of this module
+        BrowserModule, 
+        FormsModule
+    ],
+    bootstrap: [AppComponent]  // list of components to bootstrap when this module is bootstrapped
 })
 
+// Classes
 export class AppModule { }  // the root module which bootstraps and launches the application
