@@ -5,13 +5,15 @@ import {FormsModule} from "@angular/forms";
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeListComponent } from "./employee/employeeList.component";
+import { EmployeeTitlePipe } from './employee/employeeTitle.pipe';
 
 // defines a module that contains conponents, directives, pipes and providers
 @NgModule({
     declarations: [  // list of components, directives and pipes that belong to this module
         AppComponent,
         EmployeeComponent,
-        EmployeeListComponent
+        EmployeeListComponent,
+        EmployeeTitlePipe
     ],
     imports: [  // list of modules to import into this module. Everything from the imported module is available to declarations of this module
         BrowserModule, 

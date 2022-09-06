@@ -12,7 +12,7 @@
         <!-- index, first, last, even and odd properties assigned to local variables-->
         <tr *ngFor="let employee of employees;">
             <td>{{employee.code | uppercase}}</td>         <!-- uppercase pipe transforms string value to uppercase -->
-            <td>{{employee.name}}</td>
+            <td>{{employee.name | employeeTitle: employee.gender}}</td>
             <td>{{employee.gender}}</td>
             <td>{{employee.annualSalary | currency}}</td>  <!-- currency pipe transforms amount value to currency with 2 decimals -->
             <td>{{employee.dateOfBirth | date: "M/d/y"}}</td>  <!-- date pipe transforms date value to Month DD, YYYY -->
