@@ -7,6 +7,7 @@ import { SharedService } from 'src/app/shared.service';
   templateUrl: './show-dep.component.html',
   styleUrls: ['./show-dep.component.css']
 })
+
 export class ShowDepComponent implements OnInit {
   departmentList: any=[];
 
@@ -17,8 +18,6 @@ export class ShowDepComponent implements OnInit {
   }
 
   refreshDepList() {
-    this.service.getDepList()
-                .subscribe(data => {this.departmentList = data;});
+    this.service.getDepList().subscribe(data => {this.departmentList = data;});
   }
-
 }
