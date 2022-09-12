@@ -44,11 +44,11 @@ export class SharedService {
     return this.http.delete(this.APIUrl + '/employees', val);
   }
 
-  UploadPhotos(val: any) {
+  uploadPhotos(val: any) {
     return this.http.post(this.APIUrl + '/employees/savefile', val);
   }
 
-  GetAllDepartmentNames(): Observable<any> {
+  getAllDepartmentNames(): Observable<any> {
     return this.http.get<any[]>(this.APIUrl + '/employees/getalldepartmentnames');
   }
 }
