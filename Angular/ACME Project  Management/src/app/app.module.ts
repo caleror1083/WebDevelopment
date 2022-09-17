@@ -8,20 +8,15 @@ import { RouterModule } from '@angular/router';
 import { ProductModule } from './products/product.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    WelcomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
+  declarations: [AppComponent, WelcomeComponent],
+  imports: [BrowserModule, HttpClientModule, ProductModule,
     RouterModule.forRoot([
       { path: 'welcome', component: WelcomeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
-    ProductModule
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
