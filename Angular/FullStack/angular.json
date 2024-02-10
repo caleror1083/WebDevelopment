@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "FullStack:build:production"
+              "buildTarget": "FullStack:build:production"
             },
             "development": {
-              "browserTarget": "FullStack:build:development"
+              "buildTarget": "FullStack:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FullStack:build"
+            "buildTarget": "FullStack:build"
           }
         },
         "test": {
